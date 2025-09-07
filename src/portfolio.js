@@ -26,7 +26,7 @@ const greeting = {
     "💻 Desarrollador full stack apasionado 🚀 con experiencia en aplicaciones web y móviles usando JavaScript, React, Node.js y React Native, además de desarrollo backend con Java, Python y servicios en la nube con AWS."
   ),
   //resumeLink:
-    //"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  //"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/simon1820",
   linkedin: "https://www.linkedin.com/in/saguijarro/",
   gmail: "simonandresguijarromurrieta@gmail.com",
-  hotmail: "https://outlook.live.com/mail/0/deeplink/compose?to=simon132000@hotmail.com",
+  hotmail:
+    "https://outlook.live.com/mail/0/deeplink/compose?to=simon132000@hotmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@simonandresguijarromurrieta",
@@ -55,7 +56,9 @@ const skillsSection = {
     emoji(
       "⚡ Diseño y desarrollo de arquitecturas de microservicios, con experiencia en integración y optimización de sistemas en la nube."
     ),
-    emoji("⚡ Refactorización y migración de aplicaciones hacia entornos modernos y escalables, aprovechando al máximo los servicios de AWS."),
+    emoji(
+      "⚡ Refactorización y migración de aplicaciones hacia entornos modernos y escalables, aprovechando al máximo los servicios de AWS."
+    ),
     emoji(
       "⚡ Creación de aplicaciones web y móviles interactivas y funcionales."
     )
@@ -126,7 +129,7 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-        {
+    {
       schoolName: "Instituto Superior Universitario Bolivariano de Tecnología",
       logo: require("./assets/images/itblogo.png"),
       subHeader: "Tecnologo en Desarrollo de Software",
@@ -135,7 +138,7 @@ const educationInfo = {
       descBullets: [
         "Proyectos académicos en desarrollo web y móvil usando React, Node.js y SQL",
         "Cursos en sistemas operativos, seguridad informática y metodologías ágiles"
-    ]
+      ]
     },
     {
       schoolName: "Universidad Espirítu Santo",
@@ -226,7 +229,7 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = []/*{
+const bigProjects = []; /*{
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -298,7 +301,7 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = []/*{
+const blogSection = []; /*{
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -322,7 +325,7 @@ const blogSection = []/*{
 
 // Talks Sections
 
-const talkSection = []/*{
+const talkSection = []; /*{
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
@@ -341,7 +344,7 @@ const talkSection = []/*{
 
 // Podcast Section
 
-const podcastSection = []/*{
+const podcastSection = []; /*{
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
@@ -353,7 +356,7 @@ const podcastSection = []/*{
 };*/
 
 // Resume Section
-const resumeSection = []/*{
+const resumeSection = []; /*{
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
@@ -371,7 +374,7 @@ const contactInfo = {
 
 // Twitter Section
 
-const twitterDetails = []/*{
+const twitterDetails = []; /*{
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };*/

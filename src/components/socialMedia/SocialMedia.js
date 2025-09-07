@@ -35,7 +35,6 @@ export default function socialMedia() {
       {socialMediaLinks.gmail ? (
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=tu.correo@gmail.com"
-
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
