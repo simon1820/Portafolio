@@ -119,10 +119,22 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Desarrollador Senior",
+      company: "Hiberus",
+      companylogo: require("./assets/images/hiberus-logo.png"),
+      date: "Marzo 2026 - Presente",
+      desc: "Consultora tecnológica internacional. Desarrollo full stack de una plataforma de talento humano para una empresa de retail, con integración de inteligencia artificial.",
+      descBullets: [
+        "Desarrollo full stack con Angular, React y Java sobre PostgreSQL",
+        "Integración de inteligencia artificial en los flujos de la plataforma",
+        "CI/CD con Jenkins y GitHub, aplicando metodologías ágiles de desarrollo"
+      ]
+    },
+    {
       role: "Software Engineer",
       company: "Iroute (Entornos Financieros)",
       companylogo: require("./assets/images/iroute-logo.png"),
-      date: "Noviembre 2024 - Presente",
+      date: "Noviembre 2024 - Marzo 2026",
       desc: "Desarrollo de soluciones tecnológicas, con enfoque en microservicios y entornos en la nube.",
       descBullets: [
         "Implementación y refactorización de arquitecturas monolíticas a microservicios",
